@@ -3533,8 +3533,8 @@ echo
 [[ "$sbnh" == "1.10" ]] && blue "当前Sing-box内核支持geosite分流方式" || blue "当前Sing-box内核不支持geosite分流方式，仅支持分流2、3、5、6选项"
 echo
 yellow "注意："
-yellow "一、后缀域名方式只能填域名 (例：谷歌网站填写：google.com)"
-yellow "二、geosite方式须填写geosite规则名 (例：奈飞填写:netflix ；迪士尼填写:disney ；ChatGPT填写:openai ；全局且绕过中国填写:geolocation-!cn)"
+yellow "一、后缀域名方式只能填域名 (例：谷歌网站填写：google.com googleapis.com)"
+yellow "二、geosite方式须填写geosite规则名 (例：奈飞填写netflix ；迪士尼填写disney ；ChatGPT填写openai ；全局且绕过中国填写geolocation-!cn)"
 yellow "三、同一个完整域名或者geosite切勿重复分流"
 yellow "四、如分流通道中有个别通道无网络，所填分流为黑名单模式，即屏蔽该网站访问"
 changef
